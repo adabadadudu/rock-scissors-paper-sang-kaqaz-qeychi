@@ -14,8 +14,8 @@ r"""Define alternative of game states (
 equal,user won, system won) in a specifc
 language. Persian by default
 """
-user_won = "کاربر برد"
-system_won = "سیستم برد"
+user_wonno = "کاربر برد"
+system_wonno = "سیستم برد"
 equal_wonno = "برابر"
 
 ########################################
@@ -64,17 +64,17 @@ def print_winner(user,system):
 	won = return_winner(user,system)
 
 	if won == '=': print(equal_wonno)
-	if won == '+': print(user_won)
-	if won == '-': print(system_won)
+	if won == '+': print(user_wonno)
+	if won == '-': print(system_wonno)
 
 def help():
 	"Print help message"
-	print (r"""
-	Enter sang or kaqaz or cheychi to match
+	print (f"""
+	Enter {rock} or {scissors} or {paper} to match
 	or enter Ctrl+D or Ctrl+C to exit
-	sang: rock
-	qeychi: scissors
-	kaqaz: paper
+	{rock}: rock
+	{scissors}: scissors
+	{paper}: paper
 
 	You can find more document and help  in README.md
 	""")
