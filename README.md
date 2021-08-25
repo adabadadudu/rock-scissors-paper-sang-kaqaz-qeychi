@@ -46,4 +46,5 @@ $acute{a}$
 
 TODO
 =====
+[x]: Make game 
 [ ]: Ranking system
