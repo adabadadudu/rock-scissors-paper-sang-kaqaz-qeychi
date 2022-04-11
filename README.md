@@ -1,14 +1,14 @@
 # Multi language rock/scissors/paper game!
 Our motto is play rock/scissors/paper in your native language!
-(Provided that your language supported by terminal unlike Persian 😑)
+(Provided that your language is supported by terminal unlike Persian 😑)
 
 # Run game
-NOTE: Terminal used to refer to CMD or Console or command prompt
+NOTE: Terminal may refer to CMD or Console or command prompt
 
 To run the game first install Python programming language.
 
-Python is installed on Ubuntu by my experience (When you can't speak English as well I promise you nobody wants bother you)
-but if python don't installed in you system visit <https://python.org> and acquire python last version.
+Python is installed on Ubuntu (or  at least, it's what I saw)
+but if python isn't installed in you system visit <https://python.org> and install python latest version.
 
 Then open terminal and go to where you cloned this repository.
 
@@ -16,7 +16,7 @@ as you are in GNU/Linux put following command in terminal if python installed as
 ```
 ./game.py
 ```
-else if you are not in GNU/Linux or python do not installed as `python3` put python name in a variable called `PYTHON`. Python name is often `python`|`py`|`python3`:
+else if you are not in GNU/Linux or python is not installed as `python3` put python name in a variable called `PYTHON`. Python name is often `python`|`py`|`python3`:
 ```
 PYTHON=python3 # for me it is python3
 $PYTHON game.py
